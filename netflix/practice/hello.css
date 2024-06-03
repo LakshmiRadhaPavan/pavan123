@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 448px;
+}
+
+.banner-title{
+     
+    padding-top: 10rem;
+    padding-left: 6rem;
+}
+.banner-title h1{
+
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.banner-desc{
+
+    color: #fff;
+    max-width: 360px;
+    padding-top: 3rem;
+    font-size: 0.7rem;
+}
+button{
+
+    background-color: #000;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0.6rem;
+    margin-left: 2rem;
+    transition: 1s;
+
+}
+button:hover{
+
+    background-color: #fff;
+    color: #000;
+}
+.info{
+
+    margin-left: -0.007px;
+}
+.fade{
+    margin-top: -80px;
+    height: 12rem;
+    background-image: linear-gradient(180deg,transparent,rgba(28, 27, 27, 0.62),#020202);
+}
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    justify-content:space-between;
+    display: flex;
+    margin-right: 10px;
+
+}
+.logo{
+
+    width: 90px;
+    object-fit: contain;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.profile{
+    width: 40px;
+    object-fit: contain;
+    border-radius: 5rem;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+iframe{
+
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
